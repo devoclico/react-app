@@ -1,0 +1,54 @@
+.template-forms-others-oil-change {
+    padding: var(--groupui-spacing-10);
+}
+
+.template-forms-others-oil-change groupui-card {
+    max-width: 960px;
+}
+
+.template-forms-others-oil-change .section-top-spacing {
+    margin-top: var(--groupui-spacing-9);
+}
+
+.template-forms-others-oil-change .section-bottom-spacing {
+    margin-bottom: var(--groupui-spacing-5);
+}
+
+.template-forms-others-oil-change groupui-tag {
+    background-color: var(--groupui-vwag-color-signal-green-800-primary);
+    margin: auto 0;
+}
+
+.template-forms-others-oil-change .tag-col {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 560px) {
+    .template-forms-others-oil-change .tag-col {
+        justify-content: flex-start;
+    }
+}
+
+.template-forms-others-oil-change groupui-tag groupui-icon {
+    float: left;
+    margin-right: var(--groupui-spacing-2);
+}
+
+.template-forms-others-oil-change .order-information-label {
+    color: var(--groupui-vwag-color-grey-400-secondary);
+}
+
+.template-forms-others-oil-change #show-all-button {
+    margin: var(--groupui-spacing-5) auto 0;
+    max-width: 310px;
+}
+
+.template-forms-others-oil-change groupui-radio-button {
+    margin-top: var(--groupui-spacing-5);
+}
+
+.template-forms-others-oil-change .button-col {
+    display: flex;
+    justify-content: flex-end;
+}

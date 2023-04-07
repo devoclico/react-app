@@ -1,0 +1,16 @@
+.top-navigation-live-demo {
+    padding: 0 0 200px;
+}
+
+.top-navigation-live-demo groupui-headline {
+    flex: 1;
+    color: var(--groupui-vwag-color-white);
+}
+
+.top-navigation-live-demo groupui-icon {
+    margin-left: var(--groupui-spacing-7);
+}
+
+.top-navigation-live-demo groupui-header {
+    border-radius: 2px 2px 0 0;
+}

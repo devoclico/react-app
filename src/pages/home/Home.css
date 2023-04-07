@@ -1,0 +1,150 @@
+.Home {
+  text-align: center;
+}
+
+.Home-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Home-logo {
+    animation: Home-logo-spin infinite 20s linear;
+  }
+}
+
+.Home-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Home-link {
+  color: #61dafb;
+}
+
+@keyframes Home-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/** Shared */
+#template-account-settings-1 {
+  background-color: var(--groupui-vwag-color-grey-100);
+  padding: var(--groupui-spacing-10);
+}
+
+#template-account-settings-1 groupui-card {
+  max-width: 960px;
+  margin-inline: auto;
+}
+
+#template-account-settings-1 groupui-headline {
+  margin-bottom: var(--groupui-spacing-7);
+}
+
+#template-account-settings-1 .content {
+  padding-top: var(--groupui-spacing-4);
+  padding-bottom: var(--groupui-spacing-11);
+}
+
+#template-account-settings-1 .button {
+  text-align: right;
+}
+
+/** Tab 1 */
+
+#template-account-settings-1 #address {
+  margin-top: var(--groupui-spacing-9);
+}
+
+/** Tab 2 */
+
+#template-account-settings-1 .category {
+  display: flex;
+  gap: var(--groupui-spacing-4);
+}
+
+#template-account-settings-1 .category .text {
+  display: flex;
+  flex-direction: column;
+}
+
+#template-account-settings-1 .category .text groupui-headline {
+  margin-bottom: var(--groupui-spacing-2);
+  font-size: 24px;
+}
+
+#template-account-settings-1 .category .text groupui-text {
+  font-size: 16px;
+  color: var(--groupui-vwag-color-grey-400-secondary);
+}
+
+#template-account-settings-1 .icon {
+  display: flex;
+  flex-shrink: 0;
+  background-color: var(--groupui-vwag-color-petrol-1000);
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#template-account-settings-1 .icon img {
+  width: 40px;
+  height: 40px;
+}
+
+/** Tab 3 */
+
+#template-account-settings-1 #credit-card-info {
+  margin-bottom: var(--groupui-spacing-7);
+}
+
+#template-account-settings-1 .label {
+  font-size: 14px;
+  color: var(--groupui-vwag-color-grey-800-primary);
+  font-weight: bold;
+}
+
+#template-account-settings-1 #ssl-hint {
+  display: flex;
+  align-items: center;
+  gap: var(--groupui-spacing-2);
+}
+
+#template-account-settings-1 #actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--groupui-vwag-color-grey-400-secondary);
+  font-size: 12px;
+}
+
+#template-account-settings-1 .payment-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: var(--groupui-spacing-7);
+}
+
+#template-account-settings-1 .payment-option #card-options {
+  display: flex;
+  align-items: center;
+  gap: var(--groupui-spacing-2);
+}
+
+#template-account-settings-1 .payment-option img {
+  height: 16px;
+}
